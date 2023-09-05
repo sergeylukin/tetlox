@@ -2,10 +2,17 @@
   "name": "blox-tetris",
   "version": "0.1.0",
   "description": "minimal tetris CLI engine",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
 }
