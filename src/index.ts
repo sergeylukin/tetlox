@@ -89,7 +89,7 @@ var isAllEmpty = function (arr) {
     return val;
   });
 };
-var line = function () {
+var createLine = function () {
   var arr = [];
   for (var i = 0; i < WIDTH; i++) {
     arr[i] = 0;
@@ -112,11 +112,6 @@ var renderBoard = function () {
       .join("");
     log(line);
   }
-  log(Math.random() * 1000);
-  // log(chalk.red("██") + chalk.redBright("██"));
-  // log(chalk.white("████"));
-  // log("⬜⬜");
-  // log("⬜.");
   return true;
 };
 
