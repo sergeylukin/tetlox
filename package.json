@@ -1,5 +1,5 @@
 {
-  "name": "blox-tetris",
+  "name": "tetlox",
   "version": "0.1.0",
   "description": "minimal tetris CLI engine",
   "type": "module",
